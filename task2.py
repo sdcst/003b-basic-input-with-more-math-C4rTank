@@ -14,3 +14,14 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+cad = input("Enter the amount of Canadian Dollars you have :")
+
+cad = float(cad)
+
+usd = cad * 0.8
+usd = round(usd,2)
+
+usd = str(usd)
+
+print("That is worth $"+usd,"USD")
